@@ -11,7 +11,8 @@ namespace LoginForm
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            //when app is running it starts login form first
+            Application.Run(new frmLogin());
         }
     }
 }
